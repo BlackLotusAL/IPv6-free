@@ -1,6 +1,6 @@
 # 校园网免流教程
 
-本校园网免流教程由[Ianlande](https://github.com/Ianlande)提出，由[BlackLotus_AL](https://github.com/BlackLotusAllen)编写
+本校园网免流教程由[Ianlande](https://github.com/Ianlande)提出，由[BlackLotus-AL](https://github.com/BlackLotus-AL)编写
 
 本教程使用的方案是最基础的VMess+TCP
 
@@ -20,7 +20,7 @@ Vultr官网链接：https://www.vultr.com/
 
 #### 1.2 账号充值
 
-选择**【Billing】**页面，可选择通过**【Alipay】**进行充值，信息可以随便填，充值最低金额是10美元
+选择【**Billing**】页面，可选择通过【**Alipay**】进行充值，信息可以随便填，充值最低金额是10美元
 
 Vultr VPS是按时间收费的，如本教程选择的服务器价格是$0.007每小时，长时间不使用的话直接删除服务器，可以节省很多费用
 
@@ -28,7 +28,7 @@ Vultr VPS是按时间收费的，如本教程选择的服务器价格是$0.007�
 
 #### 1.3 部署VPS
 
-选择**【Products】**页面，要部署的服务器参数如下
+选择【**Products**】页面，要部署的服务器参数如下
 
 服务器类型：Cloud Compute
 
@@ -46,7 +46,7 @@ Vultr VPS是按时间收费的，如本教程选择的服务器价格是$0.007�
 
 ![1.3.2](./images/1.3.2.png)
 
-点**【Cloud Instance】**即可查看服务器详细信息
+点【**Cloud Instance**】即可查看服务器详细信息
 
 ![1.3.3](./images/1.3.3.png)
 
@@ -58,19 +58,19 @@ Vultr VPS是按时间收费的，如本教程选择的服务器价格是$0.007�
 
 #### 2.2 连接服务器
 
-点击**【新建会话】**，输入服务器IP，然后点击**【连接】**
+点击【**新建会话**】，输入服务器IP，然后点击【**连接**】
 
 ![2.2.1](./images/2.2.1.png)
 
-点击**【选择保存并接受】**
+点击【**接受并保存**】
 
 ![2.2.2](./images/2.2.2.png)
 
-用户名输入**root**，并勾选**【记住用户名】**
+用户名输入"**root**"，并勾选【**记住用户名**】
 
 ![2.2.3](./images/2.2.3.png)
 
-输入密码，并勾选**【记住密码】**
+输入密码，并勾选【**记住密码**】
 
 ![2.2.4](./images/2.2.4.png)
 
@@ -86,7 +86,7 @@ bash <(curl -s -L https://git.io/v2ray.sh)
 
 ![2.3.1](./images/2.3.1.png)
 
-输入**1**启动安装
+输入"**1**"启动安装
 
 ![2.3.2](./images/2.3.2.png)
 
@@ -94,7 +94,7 @@ bash <(curl -s -L https://git.io/v2ray.sh)
 
 ![2.3.3](./images/2.3.3.png)
 
-输入**v2ray url**生成**VMess URL**链接，这段链接很重要，之后在V2Ray客户端配置时要用到
+输入"**v2ray url**"生成**VMess URL**链接，这段链接很重要，之后在V2Ray客户端配置时要用到
 
 ![2.3.4](./images/2.3.4.png)
 
@@ -110,11 +110,11 @@ https://github.com/2dust/v2rayN/releases/download/4.20/v2rayN-Core.zip
 
 #### 3.2 连接V2Ray服务器端
 
-左上角选择**【服务器】**，再选择**【添加VMess服务器】**
+左上角选择【**服务器**】，再选择【**添加VMess服务器**】
 
 ![3.2.1](./images/3.2.1.png)
 
-先复制之前导出的**VMess URL**链接，然后点击**【从剪贴板导入URL】**
+先复制之前导出的**VMess URL**链接，然后点击【**从剪贴板导入URL**】
 
 ![3.2.2](./images/3.2.2.png)
 
@@ -128,7 +128,7 @@ https://github.com/2dust/v2rayN/releases/download/4.20/v2rayN-Core.zip
 
 ![3.2.5](./images/3.2.5.png)
 
-点击**【确定】**，之后下方就会显示启动服务的信息
+点击【**确定**】，之后下方就会显示启动服务的信息
 
 ![3.2.6](./images/3.2.6.png)
 
@@ -136,7 +136,7 @@ https://github.com/2dust/v2rayN/releases/download/4.20/v2rayN-Core.zip
 
 ![3.2.7](./images/3.2.7.png)
 
-右键v2rayN图标，启动**【自动配置系统代理】**，v2rayN图标变红，快上[Google](https://www.google.com/)测试一下效果吧
+右键v2rayN图标，启动【**自动配置系统代理**】，v2rayN图标变红，快上[Google](https://www.google.com/)测试一下效果吧
 
 ![3.2.8](./images/3.2.8.png)
 
